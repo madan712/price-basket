@@ -42,6 +42,8 @@ Sonar code scan is done for quality check
 
 **Note:** I have used Lombok API, so you may need to add Lombok plugin to your IDE if it is giving compile time error.
 
+## Output -
+
 ```==========OPTIONS==========
 1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
 Option: 1
@@ -74,4 +76,4 @@ Apples 10% off: -0.10
 Total: £3.00
 ==========OPTIONS==========
 1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
-Option:```
+Option:
