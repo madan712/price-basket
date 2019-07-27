@@ -44,7 +44,8 @@ Sonar code scan is done for quality check
 
 ## Output -
 
-```==========OPTIONS==========
+```
+==========OPTIONS==========
 1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
 Option: 1
 ==========PRODUCT==========
