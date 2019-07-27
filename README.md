@@ -37,8 +37,8 @@ The code and design should meet these requirements but be sufficiently flexible 
 This is a spring boot maven application. Import this as a maven project in your favorite IDE and run it. For extensibility user can extend offer class and create any other offer as per requirement.
 
 ## Tools
-Junit test cases are written using mockito
-Sonar code scan is done for quality check
+* Junit test cases are written using mockito
+* Sonar code scan is done for quality check
 
 **Note:** I have used Lombok API, so you may need to add Lombok plugin to your IDE if it is giving compile time error.
 
