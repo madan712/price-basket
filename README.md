@@ -32,3 +32,46 @@ Total: £3.0`
 Total: £1.30`
 
 The code and design should meet these requirements but be sufficiently flexible to allow for future extensibility. The code should be well structured, suitably commented, have error handling and be tested.
+
+# Solution
+This is a spring boot maven application. Import this as a maven project in your favorite IDE and run it. For extensibility user can extend offer class and create any other offer as per requirement.
+
+## Tools
+Junit test cases are written using mockito
+Sonar code scan is done for quality check
+
+**Note:** I have used Lombok API, so you may need to add Lombok plugin to your IDE if it is giving compile time error.
+
+```==========OPTIONS==========
+1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
+Option: 1
+==========PRODUCT==========
+Bread - 0.80 per loaf
+Soup - 0.65 per tin
+Apple - 1.00 per bag
+Milk - 1.30 per bottle
+==========OPTIONS==========
+1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
+Option: 2
+==========OFFERS==========
+Apples 10% off
+Bread 50% off
+==========OPTIONS==========
+1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
+Option: 3
+Enter products: Apple Milk Bread
+Adding.. Apple
+Adding.. Milk
+Adding.. Bread
+==========BASKET==========
+Bread x 1 = 0.80
+Milk x 1 = 1.30
+Apple x 1 = 1.00
+--------------------------
+Subtotal: £3.10
+Apples 10% off: -0.10
+--------------------------
+Total: £3.00
+==========OPTIONS==========
+1. Show Products | 2. Show Offers | 3. Take Order | 4. Show Basket | x. Exit System
+Option:```
